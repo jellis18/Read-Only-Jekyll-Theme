@@ -1,14 +1,24 @@
 # Site settings
-title: Ion
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/Read-Only-Jekyll-Theme" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+title: Strata 
+email: justin.ellis18@gmail.com 
+
+description: > 
+  Personal website of Justin Ellis.
+baseurl: "" 
+url: "http://localhost:4000" 
+
+
+twitter_username:     justinellis18 
+github_username:      jellis18  
+linkedin_username:    justin-ellis-44a32788
+google_plus_username:   
+facebook_username:    justin.ellis.7967  
+dribbble_username:      
 
 # Build settings
-markdown: kramdown
+sass:
+  sass_dir: _sass
+  include: ['_pages']
+  kramdown:
+    input: GFM
