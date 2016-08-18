@@ -8,10 +8,6 @@ description: >
 baseurl: "" 
 url: "http://localhost:4000" 
 
-# code highlights
-highlighter: pygments
-
-
 twitter_username:     justinellis18 
 github_username:      jellis18  
 linkedin_username:    justin-ellis-44a32788
@@ -21,10 +17,12 @@ dribbble_username:
 
 # Build settings
 sass:
-  sass_dir: _sass
-  include: ['_pages']
-  kramdown:
-    input: GFM
+    sass_dir: _sass
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # pages
 pages_list:

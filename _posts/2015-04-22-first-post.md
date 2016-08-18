@@ -14,7 +14,7 @@ Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna 
 
 Here is how we include a code snippet.
 
-{% highlight ruby %}
+```ruby
 def show
 	@widget = Widget(params[:id])
 	respond_to do |format|
@@ -22,12 +22,12 @@ def show
 		format.json { render json: @widget }
 	end
 end
-{% endhighlight %}
+```
 
 Maybe this works for python too?
 
-{% highlight python  %}
+```python
 def quadratic(x):
 	ret = x**2
 	return red
-{% endhighlight %}
+```
