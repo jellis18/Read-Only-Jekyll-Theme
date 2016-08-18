@@ -1,12 +1,15 @@
 # Site settings
 
-title: Strata 
+title: Justin A. Ellis
 email: justin.ellis18@gmail.com 
 
 description: > 
   Personal website of Justin Ellis.
 baseurl: "" 
 url: "http://localhost:4000" 
+
+# code highlights
+highlighter: pygments
 
 
 twitter_username:     justinellis18 
@@ -22,3 +25,12 @@ sass:
   include: ['_pages']
   kramdown:
     input: GFM
+
+# pages
+pages_list:
+    About: '#one'
+    CV/Resume: '#two'
+    Research: '#three'
+    Publications: '#four'
+    Contact: '#five'
+    Blog: '/blog'
